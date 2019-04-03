@@ -8,3 +8,5 @@ touchscreen,touchscreen emulator,telephony,camera,NFC,GPS,microphone,dendors,scr
 getPacketManager().hasSystemFeature("android.hardware.")
 ## GPS获取 允许用户搜索一个位置或静态位置提供者。  
 ![](https://img-blog.csdn.net/20161011223709306) 
+locationManager
+## 任何TV上的app activity是以断开和重连事件为条件的
