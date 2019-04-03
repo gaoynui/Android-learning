@@ -3,3 +3,4 @@
 ### 二 Gradle学习
 ### 三 groovy学习
 ### 四 创建AndroidTV项目
+### 五 TV不同于手机的特性
