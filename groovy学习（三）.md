@@ -11,3 +11,4 @@ http://groovy.codehaus.org/Download
 ![](https://github.com/gaoynui/AndroidTV-learning/blob/master/pics/groovyconsole.PNG?raw=true)
 ### 输入相关指令，按CTRL + R运行
 ![](https://github.com/gaoynui/AndroidTV-learning/blob/master/pics/groovyconsole%E7%BC%96%E8%BE%91%E7%A4%BA%E4%BE%8B.PNG?raw=true)
+### 也可在IDEA中直接编辑groovy，创建一个groovy对象即可
