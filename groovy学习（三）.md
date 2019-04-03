@@ -6,7 +6,7 @@
 http://groovy.codehaus.org/Download
 ### 在系统变量中配置groovy环境变量，并添加到PATH中
 ### 命令行键入groovy -version
-![]()
+![](https://github.com/gaoynui/AndroidTV-learning/blob/master/pics/groovy%E7%89%88%E6%9C%AC.PNG?raw=true)
 ### 命令行键入groovyconsole进入自带编辑器
 ![]()
 ### 输入相关指令，按CTRL + R运行
