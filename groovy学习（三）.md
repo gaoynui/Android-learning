@@ -8,6 +8,6 @@ http://groovy.codehaus.org/Download
 ### 命令行键入groovy -version
 ![](https://github.com/gaoynui/AndroidTV-learning/blob/master/pics/groovy%E7%89%88%E6%9C%AC.PNG?raw=true)
 ### 命令行键入groovyconsole进入自带编辑器
-![]()
+![](https://github.com/gaoynui/AndroidTV-learning/blob/master/pics/groovyconsole.PNG?raw=true)
 ### 输入相关指令，按CTRL + R运行
 ![]()
