@@ -7,4 +7,4 @@
 ## 5.finish
 可能加载sdk相关组件
 ## 项目目录
-![]()
+![](https://github.com/gaoynui/AndroidTV-learning/blob/master/pics/androidTV%E9%A1%B9%E7%9B%AE%E7%9B%AE%E5%BD%95.PNG?raw=true)
