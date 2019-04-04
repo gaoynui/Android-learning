@@ -1,5 +1,5 @@
 # 四大组件
-## Activity
+## 一 Activity
 activity在安卓中代表屏幕，提供GUI界面，大部分app有多个屏幕组成。  
 #### 生命周期：  
 首次创建：onCreate()  
@@ -8,7 +8,7 @@ activity在安卓中代表屏幕，提供GUI界面，大部分app有多个屏幕
 另一个Activity需覆盖当前Activity时，调用onPause()，将前一个Activity的数据保存起来。  
 如果让前一个Activity不再显示，调用onStop()停止；如果让其回到前台重新获得焦点，调用onResume()  
 onStop()后，可以调用onDestory()销毁该Activity，也可以finish()关闭
-## Service
+## 二 Service
 定义一个Server两种方法：  
 1.项目内Server包右键->New->Service->>Service  
 2.继承class类，重写IBinder(),onCreate(),onStartCommand(),onDstory()方法
@@ -32,14 +32,14 @@ public class MySerivce extends Servcie{
 或者调用IntentService:  
 Intent intent = new Intent(this, MyIntentService.class);  
 startServcie(intent);
-## Content Provider
-## Broadcast Receiver
+## 三 Content Provider
+## 四 Broadcast Receiver
 android广播：  
 1.用于不同组件间的通信（应用内，应用外）  
 2.用于多线程通信  
 3.与android系统的通信  
 # 五大存储方式
-## SharedPreferences
+## 一 SharedPreferences
 使用键值对的方式进行存储数据。  
 
 #### 获取SharedPreferences对象:  
@@ -58,7 +58,7 @@ editor.apply();
 SharedPrefences sp = getSharedpreferences("fileName",0);  
 String name = sp.getString("name", "");  
 int age = sp.getInt("age", "");
-## SQlist
-## content Provider存储
-## 网络存储
-## 文件存储
+## 二 SQlist
+## 三 content Provider存储
+## 四 网络存储
+## 五 文件存储
