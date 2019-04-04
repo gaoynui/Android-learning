@@ -4,7 +4,7 @@ activity在安卓中代表屏幕，提供GUI界面，大部分app有多个屏幕
 生命周期：  
 首次创建：onCreate()  
 显示给用户：onStart()  
-位于前台，位于栈顶：onResume()  
+位于前台，位于栈顶：onResume()。前台服务一直会有一个正在运行的图标在系统状态栏。  
 另一个Activity需覆盖当前Activity时，调用onPause()，将前一个Activity的数据保存起来。  
 如果让前一个Activity不再显示，调用onStop()停止；如果让其回到前台重新获得焦点，调用onResume()  
 onStop()后，可以调用onDestory()销毁该Activity，也可以finish()关闭
