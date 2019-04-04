@@ -34,8 +34,30 @@ Intent intent = new Intent(this, MyIntentService.class);
 startServcie(intent);
 ## Content Provider
 ## Broadcast Receiver
+android广播：  
+1.用于不同组件间的通信（应用内，应用外）  
+2.用于多线程通信  
+3.与android系统的通信  
 # 五大存储方式
 ## SharedPreferences
+使用键值对的方式进行存储数据。  
+
+#### 获取SharedPreferences对象:  
+context类中的getSharedPreferences()方法，该方法有两个参数，第一个指定sharedPreferences文件
+的名称（如果不存在则新建），第二个参数指定操作模式：  
+SharedPreferences.Editor editor = getSharedPreferences("data",MODE_PRIVATE).edit();  
+editor.putString("name", "Tom");  
+editor.putInt("age",13);  
+editor.putBoolean("married",false);  
+editor.apply();  
+#### 向SharedPreferences文件存储数据
+1.调用SharedPreferences对象的edit()方法来获取一个SharedPreferences.Editor对象  
+2.向SharedPreferences.Editor对象添加数据，putString(),putInt(),putBoolean()  
+3.调用apply()方法提交添加的数据，完成数据存储。见前面代码。
+#### 从SharedPreferences对象读取数据
+SharedPrefences sp = getSharedpreferences("fileName",0);  
+String name = sp.getString("name", "");  
+int age = sp.getInt("age", "");
 ## SQlist
 ## content Provider存储
 ## 网络存储
