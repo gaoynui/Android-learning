@@ -59,6 +59,9 @@ SharedPrefences sp = getSharedpreferences("fileName",0);
 String name = sp.getString("name", "");  
 int age = sp.getInt("age", "");
 ## 二 SQlist
+#### 创建或打开数据库
+SQLiteOpenHelper类下的getReadableDatabase()和getWritableDatabase()两个实例方法。返回一个
+可对数据库进行读写操作的对象。
 ## 三 content Provider存储
 ## 四 网络存储
 ## 五 文件存储
