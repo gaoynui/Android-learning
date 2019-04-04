@@ -39,7 +39,7 @@
   android:layout_paddingRight ="";离父元素右边缘的距离  
   android:layout_paddingTop=""; 离父元素上边缘的距离  
 ## fragmentLayout
-更适合控件有动画效果
+更适合控件有动画效果;所有控件默认摆放在左上角
 ## linearLayout
 需要设置方向：android:orientation="vertical/horizontal"  
 
