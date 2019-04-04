@@ -8,3 +8,29 @@
 3.顺序执行非常容易产生覆盖。  
 ## fragmentLayout
 更适合控件有动画效果
+## linearLayout
+需要设置方向：android:orientation="vertical/horizontal"  
+
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android=""  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    android:orientation="horizontal"  
+    android:background="#ffffff">  
+    
+    <EditText  
+        android:id="@+id/editText2"  
+        android:layout_width="0dp"  
+        android:layout_height="wrap_content"  
+        android:layout_weight="1"  
+        android:ems="10"  
+        android:inputType="textEmailAddress" />  
+    <Button  
+        android:id="@+id/editText"  
+        android:layout_width="0dp"  
+        android:layout_height="wrap_content"  
+        android:layout_weight="1"  
+        android:ems="10"  
+        android:hint="send"  
+        android:inputType="textPassword" />  
+ </LinearLayout>  
