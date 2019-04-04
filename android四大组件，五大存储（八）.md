@@ -15,6 +15,23 @@ onStop()后，可以调用onDestory()销毁该Activity，也可以finish()关闭
 
 每个服务需要在androidManifest.xml注册才生效  
 前台服务较普通服务会一直有一个运行图标在系统状态栏
+
+避免代码在服务主线程中出现ANR（Application not responding），需要用到多线程编程：
+public class MySerivce extends Servcie{  
+	...  
+	@Override  
+	public int onStartCommand(Intent intent, int flats , int startId){  
+     new Thread(new Runnable(){  
+			public void run(){  
+				//处理具体的逻辑  
+				stopSelf();  
+			}  
+		});  
+	}  
+}  
+或者调用IntentService:  
+Intent intent = new Intent(this, MyIntentService.class);  
+startServcie(intent);
 ## Content Provider
 ## Broadcast Receiver
 # 五大存储方式
