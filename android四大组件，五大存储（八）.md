@@ -40,7 +40,8 @@ public class MySerivce extends Servcie{
 Intent intent = new Intent(this, MyIntentService.class);  
 startServcie(intent);
 ## 三 Content Provider
-管理和共享应用程序数据库
+管理和共享应用程序数据库  
+![操作示例](https://www.cnblogs.com/plokmju/p/android_ContentProvider.html)
 ## 四 Broadcast Receiver
 android广播：  
 1.用于不同组件间的通信（应用内，应用外）  
