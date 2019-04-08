@@ -6,6 +6,16 @@
 4、Log.w的意思为橙色，可以看作为warning警告，一般需要我们注意优化Android代码，同时选择它后还会输出Log.e的信息。  
 5、Log.e为红色，可以想到error错误，这里仅显示红色的错误信息，这些错误就需要我们认真的分析，查看栈的信息了。  
 ## margin
-android:layout_marginLeft=“200dp”离左边框的位置，dp对应分辨率  
+android:layout_marginLeft=“200dp”离左边框的位置，dp对应分辨率（或用marginStart代替）  
 android:padding_left="1dp"内边距
 ## OnClickListener()
+针对button组件，但若用button创建实体会在其下的onClick()函数上报错，所以用view创建button对象。  
+
+private View bt;  
+bt = this.findViewById(R.id.bt);  
+bt = setOnClickListener(new view.OnClickListener(){  
+  @Override  
+  public void onClick(View bt){  
+  //具体事件  
+  }  
+});  
