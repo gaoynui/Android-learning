@@ -66,3 +66,4 @@
         android:hint="send"  
         android:inputType="textPassword" />  
  </LinearLayout>  
+ layout_weight相对于其他text，text1:text2:...
