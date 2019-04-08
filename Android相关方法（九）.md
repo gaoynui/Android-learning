@@ -9,6 +9,7 @@
 android:layout_marginLeft=“200dp”离左边框的位置，dp对应分辨率（或用marginStart代替）  
 android:padding_left="1dp"内边距
 ## OnClickListener()
+button事件监听  
 针对button组件，但若用button创建实体会在其下的onClick()函数上报错，所以用view创建button对象。  
 
 private View bt;  
