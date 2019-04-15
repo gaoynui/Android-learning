@@ -9,3 +9,5 @@
 ### 七 androidXML布局
 ### 八 android四大组件，五大存储
 ### 九 android相关方法（散记）
+### 十 AndroidAudio要点
+### 十一 docker安装详细教程（ubuntu）
