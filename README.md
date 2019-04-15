@@ -11,3 +11,4 @@
 ### 九 android相关方法（散记）
 ### 十 AndroidAudio要点
 ### 十一 docker安装详细教程（ubuntu）
+### 十二 交叉编译环境配置（ubuntu）
