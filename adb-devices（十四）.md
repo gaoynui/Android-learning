@@ -23,6 +23,8 @@ su
 
 删除文件同样  
 exit退出shell
+### 直接安装
+adb install -r [apk路径]
 ## 其他帮助
 若adb没反应：
 adb kill-server 再 adb start-server  
