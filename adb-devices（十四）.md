@@ -25,4 +25,5 @@ su
 exit退出shell
 ## 其他帮助
 若adb没反应：
-adb kill-server 再 adb start-server
+adb kill-server 再 adb start-server  
+极端方法:通过Android Studio运行project来识别外接设备
