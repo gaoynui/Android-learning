@@ -33,4 +33,5 @@ adb kill-server 再 adb start-server
 查看设备安装包信息：  
 adb shell dumpsys package --checkin p  
 ![](https://github.com/gaoynui/Android-learning/blob/master/pics/dumpsys%E5%91%BD%E4%BB%A4%E6%9F%A5%E7%9C%8B%E5%AE%89%E8%A3%85%E5%8C%85.png?raw=true)  
-*dumpsys是一个系统诊断命令，常用于找bug
+### *dumpsys是一个系统诊断命令，常用于找bug  
+![](https://github.com/gaoynui/Android-learning/blob/master/pics/adb-shell-pumpsys%E5%B8%B8%E7%94%A8%E5%AD%90%E5%91%BD%E4%BB%A4.png?raw=true)
