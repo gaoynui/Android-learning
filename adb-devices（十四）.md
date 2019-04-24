@@ -29,4 +29,7 @@ adb install -r [apk路径]
 ## 其他帮助
 若adb没反应：
 adb kill-server 再 adb start-server  
-极端方法:通过Android Studio运行project来识别外接设备
+极端方法:通过Android Studio运行project来识别外接设备  
+查看设备安装包信息：  
+adb shell dumpsys package --checkin p  
+*dumpsys是一个系统诊断命令，常用于找bug
