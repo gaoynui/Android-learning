@@ -13,3 +13,4 @@
 ### 十一 docker安装详细教程（ubuntu）
 ### 十二 交叉编译环境配置（ubuntu）
 ### 十三 安卓编译系统lineageOS
+### 十四 adb-devices
