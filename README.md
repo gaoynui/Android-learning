@@ -12,5 +12,6 @@
 ### 十 AndroidAudio要点
 ### 十一 docker安装详细教程（ubuntu）
 ### 十二 交叉编译环境配置（ubuntu）
-### 十三 安卓编译系统lineageOS
+### 十三 安卓内核编译(lineageOS)及烧录(vim2--khadas)
+编译遇到的问题及解决
 ### 十四 adb-devices
