@@ -1,5 +1,5 @@
 ## 打包容器
-dockker配置教程一：https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04#step-4-%E2%80%94-working-with-docker-images
+docker配置教程一：https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04#step-4-%E2%80%94-working-with-docker-images
 
 配置教程二：https://docs.khadas.com/vim1/InstallDocker.html
 ## docker基本操作
@@ -16,3 +16,7 @@ docker rm bfd094233f96   #删除一个容器
 docker attach d20f3dc6cd92  #进入一个正在运行的容器
 
 docker save -o name os   #存储镜像
+
+docker ps -a 显示所有容器ID
+
+docker images 显示镜像
