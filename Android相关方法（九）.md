@@ -16,7 +16,7 @@ private View bt;
 bt = this.findViewById(R.id.bt);  
 bt = setOnClickListener(new view.OnClickListener(){  
   @Override  
-  public void onClick(View bt){  
+  public void onClick(View v){  
   //具体事件  
   }  
 });  
