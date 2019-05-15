@@ -1,3 +1,5 @@
+## linux学习
+《鸟哥的linux私房菜》http://linux.vbird.org/howtoread.php
 ## android 学习笔记
 ### 一 环境配置
 ### 二 Gradle学习
