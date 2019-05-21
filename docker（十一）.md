@@ -2,6 +2,12 @@
 docker配置教程一：https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04#step-4-%E2%80%94-working-with-docker-images
 
 配置教程二：https://docs.khadas.com/vim1/InstallDocker.html
+
+## docker文档
+https://www.cnblogs.com/purpleraintear/p/6007411.html
+
+## docker hub
+https://hub.docker.com/search?q=&type=image
 ## docker基本操作
 进入docker模式：sudo docker run -it ubuntu
 
