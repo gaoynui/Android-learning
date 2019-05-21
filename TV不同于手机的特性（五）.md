@@ -1,6 +1,7 @@
 ## 检查app是否运行在设备上-uiModeManager
 ![](https://img-blog.csdn.net/20161011223135968)
 ## 声明不需要的硬件特性-android:required = "false"
+(xml配置文件)  
 touchscreen,touchscreen emulator,telephony,camera,NFC,GPS,microphone,dendors,screen in portrait orientation
 ![](https://img-blog.csdn.net/20161011223212393)
 ## 检查硬件features
