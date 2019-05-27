@@ -15,6 +15,6 @@
 ### 十一 [docker安装详细教程（ubuntu）](https://github.com/gaoynui/Android-learning/blob/master/%E5%8D%81%E4%B8%80%20docker.md)
 ### 十二 [交叉编译环境配置（ubuntu）](https://github.com/gaoynui/Android-learning/blob/master/%E5%8D%81%E4%BA%8C%20%E4%BA%A4%E5%8F%89%E7%BC%96%E8%AF%91.md)
 ### 十三 [安卓内核编译(lineageOS)及烧录(vim2--khadas)](https://github.com/gaoynui/Android-learning/blob/master/%E5%8D%81%E4%B8%89%20%E5%AE%89%E5%8D%93%E5%86%85%E6%A0%B8%E7%BC%96%E8%AF%91%E5%8F%8A%E7%83%A7%E5%BD%95.md)
-编译遇到的问题及解决
+[编译遇到的问题及解决](https://github.com/gaoynui/Android_compile_error-solve/blob/master/%E5%AE%89%E5%8D%93%E7%BC%96%E8%AF%91%E9%97%AE%E9%A2%98%E6%B1%87%E6%80%BB.md)
 ### 十四 [adb-devices](https://github.com/gaoynui/Android-learning/blob/master/%E5%8D%81%E5%9B%9B%20adb-devices.md)
 ### 十五 [APK反编译](https://github.com/gaoynui/Android-learning/blob/master/%E5%8D%81%E4%BA%94%20APK%E5%8F%8D%E7%BC%96%E8%AF%91.md)
