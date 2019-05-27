@@ -1,7 +1,7 @@
 ## linux学习
 《鸟哥的linux私房菜》http://linux.vbird.org/howtoread.php
 ## android 学习笔记
-### 一 环境配置
+### 一 [环境配置](https://github.com/gaoynui/Android-learning/blob/master/%E4%B8%80%20%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE.md)
 ### 二 Gradle学习
 ### 三 groovy学习
 ### 四 创建AndroidTV项目
