@@ -1,0 +1,52 @@
+BASH shell,shell scripts
+BASH：Bourne Again Shell,基于GNU架构发展的linux shell
+
+套件管理员：
+RPM，SRPM，Tarball
+
+Linux默认有六个终端机界面，通过[ctrl]+[shift]+[f1/f2../f6]切换
+默认进入第一个终端机界面
+
+在linux里面任何一个文件都具有User，group和others三种身份的个别权限，还有root权限
+
+[-/d][rwx][rwx][rwx]
+-代表文件，d代表文件夹
+第一个持有者权限，第二个同群组使用者权限，第三个其他使用者权限
+第三个[r--]虽然有读权限，但是没有x执行权限，所以others不能进入相关目录下或文件。
+chgrp将文件的属组改变，如：chgrp staff /u将/u的属组更改为staff
+chgrp -hR staff /u将/u下所有文件改为staff
+/etc/group里查看属组
+
+文件名前加.如.repo则表示为隐藏文件
+
+FHS 文件系统层次化标准
+
+shell 变数功能，每个人登录系统都会获得bash shell,通过变数区分不同的bash
+获取变数：echo ${// //}如echo $PATH或echo ${PATH}
+
+shell scripts 命令脚本（XX.sh）
+\换行 #注释
+#!/bin/bash 第一句，是用何种bash的语法
+
+RAID磁盘阵列
+LVM逻辑卷轴管理
+
+daemons <-> services
+daemon 守护进程
+
+systemctl
+systemd:准备软件执行的环境
+
+bootloader grub2
+UEFI启动，功能类似BIOS
+BIOS是汇编语言程序，用于计算机硬件自检、CMOS设置、引导操作系统启动、提供硬件I/O、硬件中断等
+
+MBR & GPT磁盘分区
+MBR：主引导记录，启动过程：电源-主板自带的BIOS-加载MBR-启动
+GPT：使用UEFI启动的磁盘组织方式
+MBR + BIOS
+GPT + UEFI
+
+MBR(GRUB2)-->kernal file-->booting
+MBR(GRUB2)-->boot sector(windows loader)-->windows kernal-->booting
+MBR(GRUB2)-->boot sector(grub2)-->kernal file-->booting
