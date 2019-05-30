@@ -34,10 +34,11 @@ javah -classpath [android.jar]:. [头文件名全程，如com.example.test.testH
 #### undefined modules
 找不到对应模式，这在android.mk文件中发生，由于ndk版本问题，可以将其注释掉即可解决。  
 或者在sdk/ndk/build/core/build_binary.mk的APP_ALLOW_MISSING_DEPS处加上如图：  
-![]()
+![](https://github.com/gaoynui/Android-learning/blob/master/pics/undefiened%20modules.png?raw=true)
 #### undefined reference to ""
-这是常见错误，需要在android.mk文件中添加LOCAL_LDLIBS += -llog(liblog)
+这是常见错误，需要在android.mk文件中添加LOCAL_LDLIBS += -llog(liblog)  
+![](https://github.com/gaoynui/Android-learning/blob/master/pics/undefined%20reference.png?raw=true)
 ### 编译成功
-![]()  
+![](https://github.com/gaoynui/Android-learning/blob/master/pics/success.png?raw=true)  
 会在Android.mk文件的父文件同级下创建libs文件夹，下面就是不同型号对应的lib.so：  
-![]()
+![](https://github.com/gaoynui/Android-learning/blob/master/pics/%E7%94%9F%E6%88%90%E7%9A%84so%E6%96%87%E4%BB%B6.png?raw=true)
