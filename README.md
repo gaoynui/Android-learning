@@ -18,3 +18,4 @@
 [编译遇到的问题及解决](https://github.com/gaoynui/Android_compile_error-solve/blob/master/%E5%AE%89%E5%8D%93%E7%BC%96%E8%AF%91%E9%97%AE%E9%A2%98%E6%B1%87%E6%80%BB.md)
 ### 十四 [adb-devices](https://github.com/gaoynui/Android-learning/blob/master/%E5%8D%81%E5%9B%9B%20adb-devices.md)
 ### 十五 [APK反编译](https://github.com/gaoynui/Android-learning/blob/master/%E5%8D%81%E4%BA%94%20APK%E5%8F%8D%E7%BC%96%E8%AF%91.md)
+### 十六 [NDK导入C库函数](https://github.com/gaoynui/Android-learning/blob/master/%E5%8D%81%E5%85%AD%20NDK%E5%AF%BC%E5%85%A5%E5%BA%95%E5%B1%82C%E5%BA%93.md)
