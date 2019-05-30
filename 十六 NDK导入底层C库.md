@@ -8,7 +8,7 @@ C语言较java更底层，所以有Java层下的native层，操作系统大多�
 export PATH=$PATH:[.sdk/ndk]  
 通过 env | grep PATH 查看环境变量
 ## 准备
-![]()
+![](https://github.com/gaoynui/Android-learning/blob/master/pics/%E6%96%87%E4%BB%B6%E7%BB%84%E6%88%90.png)
 ### C库函数
 ### 头函数及依赖库
 需将所有依赖放在mk文件同目录下，有些依赖会在ndk中自带，可能会在编译中报与原依赖发生冲突申明的warning,不影响。
