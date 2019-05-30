@@ -66,4 +66,10 @@
         android:hint="send"  
         android:inputType="textPassword" />  
  </LinearLayout>  
- layout_weight相对于其他text，text1:text2:...
+ layout_weight相对于其他text，text1:text2:...  
+ 
+ 
+## 屏幕适配
+DIP：px = dp * (dpi / 160)  
+按照当前配置筛选，最优  
+Locale,Screen orientation, Screen pixel density, Touchscreen type, Primary text input method
