@@ -27,7 +27,7 @@ javah -classpath [android.jar]:. [头文件名全程，如com.example.test.testH
 在Android项目中一个包名就是一个文件夹，如com.example.test在文件系统中代表com/example/test  
 而class问价是存放在项目目录下.../com/example/name/下，所以其实class文件是放在com.example.name处，
 这样生成的.h文件就放在和com同级的目录下，如图：  
-![]()
+![](https://github.com/gaoynui/Android-learning/blob/master/pics/%E7%94%9F%E6%88%90%E7%9A%84%E5%A4%B4%E6%96%87%E4%BB%B6.png?raw=true)
 ## 编译mk文件
 在Android.mk路径下执行ndk-build  
 ### 问题
