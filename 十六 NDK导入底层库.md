@@ -14,7 +14,7 @@ export PATH=$PATH:[.sdk/ndk]
 需将所有依赖放在mk文件同目录下，有些依赖会在ndk中自带，可能会在编译中报与原依赖发生冲突申明的warning,不影响。
 ### Android.mk
 ndk识别的编译文件，整个编译的核心  
-[Android.mk]()
+[Android.mk](https://github.com/gaoynui/Android-learning/blob/master/docs/Android.mk)
 ### Application.mk
 主要告诉ndk编辑器需要生成哪些版本的java库，文件要有，但可以不说明，默认生成ndk支持的所有版本。
 主要有arm64-v8a和armeabi-v7a
