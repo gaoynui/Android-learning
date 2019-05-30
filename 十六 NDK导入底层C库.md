@@ -42,3 +42,8 @@ javah -classpath [android.jar]:. [头文件名全程，如com.example.test.testH
 ![](https://github.com/gaoynui/Android-learning/blob/master/pics/success.png?raw=true)  
 会在Android.mk文件的父文件同级下创建libs文件夹，下面就是不同型号对应的lib.so：  
 ![](https://github.com/gaoynui/Android-learning/blob/master/pics/%E7%94%9F%E6%88%90%E7%9A%84so%E6%96%87%E4%BB%B6.png?raw=true)
+## 导入
+在项目中写一个class导入库：  
+static{  
+  System.loadLibrary("libname");  
+}  
