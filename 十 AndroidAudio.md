@@ -2,7 +2,7 @@
 ### 硬件
 声卡：connectors,Audio Circuits,INterface
 ### 驱动
-OSS->ALSA->Tiny-alsa
+OSS->ALSA->Tiny-alsa（advanced linux sound architecture）
 ### HAL
 硬件抽象层
 ### Audio LIb
