@@ -19,9 +19,11 @@ adb shell
 su
 可通过cd,ls等基本命令查看文件  
 将所有文件设为读写：  
-进入shell,mount -rw,remount/system
+进入shell：  
+mount -rw,remount/system
 
 删除文件同样  
+
 exit退出shell
 ### 直接安装
 adb install -r [apk路径]  
@@ -40,7 +42,7 @@ adb shell dumpsys package --checkin p
 adb kill-server  
 adb start-server
 ### 方法二
-在设备上进入开发者模式，点击revoke usb debugging authorize相关的，取消允许usb授权调试  
+在设备上进入开发者模式，点击revoke usb debugging authorize相关的，取消允许usb授权调试再  
 adb kill-server  
 adb start-server  
 ### 方法三
